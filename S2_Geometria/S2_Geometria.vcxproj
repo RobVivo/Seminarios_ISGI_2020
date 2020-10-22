@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{4f0e437d-401b-481c-8113-918df75e018a}</ProjectGuid>
-    <RootNamespace>S1HolaMundo</RootNamespace>
+    <ProjectGuid>{877c8343-7097-497b-a2d4-218eae36539f}</ProjectGuid>
+    <RootNamespace>S2Geometria</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -75,12 +75,16 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\codebase;$(IncludePath)</IncludePath>
+    <LibraryPath>..\codebase\lib;C:\Users\Rob\OneDrive - UPV\Poli\Codigo\GL\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\codebase\;C:\Users\Rob\OneDrive - UPV\Poli\Codigo\GLFWx64\include;C:\Users\Rob\OneDrive - UPV\Poli\Codigo\GL\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\codebase\lib;C:\Users\Rob\OneDrive - UPV\Poli\Codigo\GLFWx64\lib-vc2019;C:\Users\Rob\OneDrive - UPV\Poli\Codigo\GL\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -139,7 +143,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="HolaMundo.cpp" />
+    <ClCompile Include="Geometria.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
