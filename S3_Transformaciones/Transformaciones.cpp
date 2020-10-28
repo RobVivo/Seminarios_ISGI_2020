@@ -2,9 +2,8 @@
 	\file		Transformaciones.cpp
 	\brief		Uso de transformaciones geometricas en OpenGL
 
-	Programa para dibujar instancias de una flor compuesta
-	por listas de dibujo petalo, corola y tallo usando
-	*freeglut* y *Utilidades*
+	Programa para dibujar instancias de una flor como una lista
+	de dibujo compuesta usando *freeglut* y  *Utilidades*
 
 	\author		Roberto Vivo' <rvivo@upv.es>
 	\version	1.0
@@ -14,16 +13,20 @@
 
 #define PROYECTO "ISGI::S3E01::Transformaciones"
 
+// Bibliotecas C++
 #include <iostream>	
 #include <cstdlib>
+
+// Cabeceras propias
 #include <Utilidades.h>
 
+// Listas de dibujo
 GLuint petalo, corola, flor;
 
 using namespace std;
 
+//! Inicializaciones
 void init()
-// Inicializaciones
 {
 	cout << "Iniciando " << PROYECTO << endl;
 	cout << "GL version " << glGetString(GL_VERSION) << endl;
@@ -81,8 +84,8 @@ void init()
 	glEndList();
 }
 
+//! Funcion de atencion al dibujo
 void display()
-// Funcion de atencion al dibujo
 {
 	glClear(GL_COLOR_BUFFER_BIT);
 	glMatrixMode(GL_MODELVIEW);
@@ -104,13 +107,13 @@ void display()
 	glFlush();
 }
 
+//! Funcion de atencion al redimensionamiento
 void reshape(GLint w, GLint h)
-// Funcion de atencion al redimensionamiento
 {
 }
 
-void main(int argc, char** argv)
-// Programa principal
+//! Programa principal
+int main(int argc, char** argv)
 {
 	// Inicializaciones
 	glutInit(&argc, argv);
