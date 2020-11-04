@@ -40,7 +40,7 @@ void reshape(GLint w, GLint h)
 }
 
 //! Programa principal
-void main(int argc, char** argv)
+int main(int argc, char** argv)
 {
 	// Inicializaciones
 	glutInit(&argc, argv);
