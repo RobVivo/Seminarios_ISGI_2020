@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "S7_Iluminacion", "S7_Ilumin
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "S8_Texturas", "S8_Texturas\S8_Texturas.vcxproj", "{EFFE95D9-E567-4672-9E98-8ABDC98BA1BE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "S9_Efectos", "S9_Efectos\S9_Efectos.vcxproj", "{A5A344DA-E5D5-440F-BC8D-7C486C48D24B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{EFFE95D9-E567-4672-9E98-8ABDC98BA1BE}.Release|x64.Build.0 = Release|x64
 		{EFFE95D9-E567-4672-9E98-8ABDC98BA1BE}.Release|x86.ActiveCfg = Release|Win32
 		{EFFE95D9-E567-4672-9E98-8ABDC98BA1BE}.Release|x86.Build.0 = Release|Win32
+		{A5A344DA-E5D5-440F-BC8D-7C486C48D24B}.Debug|x64.ActiveCfg = Debug|x64
+		{A5A344DA-E5D5-440F-BC8D-7C486C48D24B}.Debug|x64.Build.0 = Debug|x64
+		{A5A344DA-E5D5-440F-BC8D-7C486C48D24B}.Debug|x86.ActiveCfg = Debug|Win32
+		{A5A344DA-E5D5-440F-BC8D-7C486C48D24B}.Debug|x86.Build.0 = Debug|Win32
+		{A5A344DA-E5D5-440F-BC8D-7C486C48D24B}.Release|x64.ActiveCfg = Release|x64
+		{A5A344DA-E5D5-440F-BC8D-7C486C48D24B}.Release|x64.Build.0 = Release|x64
+		{A5A344DA-E5D5-440F-BC8D-7C486C48D24B}.Release|x86.ActiveCfg = Release|Win32
+		{A5A344DA-E5D5-440F-BC8D-7C486C48D24B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
